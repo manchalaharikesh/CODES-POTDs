@@ -1,3 +1,10 @@
+// DATE: 22-AUG-2023
+// Question URL: https://leetcode.com/problems/excel-sheet-column-title/
+
+// Question: 168. Excel Sheet Column Title
+// Description: For a given number N generate the possible Excel sheet column name for it.
+// Approach: 1. Consider a number system of base 26 and convert given number N into base 26 number system.
+
 class Solution {
 public:
     string convertToTitle(int columnNumber) {
