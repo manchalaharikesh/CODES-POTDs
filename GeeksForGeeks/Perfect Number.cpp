@@ -1,4 +1,4 @@
-// DATE: 11-SEP-2023
+// DATE: 12-SEP-2023
 // Question URL: https://practice.geeksforgeeks.org/problems/perfect-numbers3207/1
 // Question: Perfect Number
 // Description: For a given number N, find if it is a perfect number or not.
