@@ -6,7 +6,7 @@
 //              Level is the minimum number of edges you must travel from the node 0 to some target.
 
 //              If there doesn't exists such a node that is labeled as X, return -1.
-// Approach: 1. Implement Level Order Traversal for all unvisited nodes and store node along with its level in the queue.
+// Approach: 1. Implement Level Order Traversal for all unvisited nodes and store node along with its level in the queue this makes up the solution.
 
 class Solution
 {
