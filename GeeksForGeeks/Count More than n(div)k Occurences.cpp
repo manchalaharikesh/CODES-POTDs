@@ -1,6 +1,6 @@
 // DATE: 23-DEC-2023
 // Question URL: https://www.geeksforgeeks.org/problems/count-element-occurences/1
-// Question: Count More than n / k Occurences
+// Question: Count More than n/k Occurences
 // Description: Given an array arr of size N and an element k. The task is to find the 
 //              count of elements in the array that appear more than n/k times.
 // Approach: 1. Store elements into a map with freq. Then find the count of elements 
