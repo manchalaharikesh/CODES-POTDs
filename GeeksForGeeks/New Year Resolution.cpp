@@ -1,5 +1,5 @@
 // DATE: 31-DEC-2023
-// Question URL: https://practice.geeksforgeeks.org/problems/multiply-two-strings/1
+// Question URL: https://www.geeksforgeeks.org/problems/good-by-2023/1
 
 // Question: New Year Resolution
 // Description: As the clock struck midnight on New Year's Eve, Geek bid farewell to the wasted moments of 2023, realizing the untapped potential of GFG's Problem of the Day.
