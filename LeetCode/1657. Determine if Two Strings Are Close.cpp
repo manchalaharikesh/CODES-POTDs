@@ -11,7 +11,7 @@
 //              You can use the operations on either string as many times as necessary.
 
 //              Given two strings, word1 and word2, return true if word1 and word2 are close, and false otherwise.
-// Approach: 1. Here the strings are close if both have same unique characters and the count of freqs is same irrespective of char.
+// Approach: 1. Here the strings are close if both have same unique characters and the count of unique freqs to be same irrespective of char.
 
 class Solution {
 public:
