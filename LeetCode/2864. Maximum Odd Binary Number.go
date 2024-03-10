@@ -12,23 +12,23 @@
 // Approach: 1. Brute-Force Code is Self-Explanatory.
 
 func maximumOddBinaryNumber(s string) string {
-    ones := 0
-    var ans string
+	ones := 0
+	var ans string
 
-    for i := range s {
-        if s[i] == '1' {
-            ones++
-        }
-    }
+	for i := range s {
+		if s[i] == '1' {
+			ones++
+		}
+	}
 
-    for i := 0; i < len(s)-1; i++ {
-        if i < ones - 1 {
-            ans = ans + "1"
-        } else {
-            ans = ans + "0"
-        }
-    }
-    ans = ans + "1"
+	for i := 0; i < len(s)-1; i++ {
+		if i < ones-1 {
+			ans = ans + "1"
+		} else {
+			ans = ans + "0"
+		}
+	}
+	ans = ans + "1"
 
-    return ans
+	return ans
 }
