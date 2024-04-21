@@ -11,7 +11,7 @@
 //              Note: The generated output is 1 if you modify the given array successfully.
 
 //              Geeky Challenge: Solve this problem in O(n) time complexity.
-// Approach: 1. Find the number of elements in each range. Then mark their start and end boundaries. Then place elements into the boundary they belong to.
+// Approach: 1. Find the number of elements in each range. Then mark their start and end boundaries. Then place elements into the boundary they belong to by updating their start index.
 
 class Solution{   
 public:
