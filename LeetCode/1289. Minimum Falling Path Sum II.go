@@ -4,10 +4,12 @@
 // Question: 1289. Minimum Falling Path Sum II
 // Description: Given an n x n integer matrix grid, return the minimum sum of a falling path with non-zero shifts.
 
-//				A falling path with non-zero shifts is a choice of exactly one element from each row of grid such that no two elements chosen in adjacent rows are in the same column.
+//	A falling path with non-zero shifts is a choice of exactly one element from each row of grid such that no two elements chosen in adjacent rows are in the same column.
+//
 // Approach: 1. At dp[i][j] store the minimum sum possible with falling path with non-zero shifts from (i, j)th point. Apply a backtracking algorithm and continue if and only if dp[i][j] doesn't have a solution marked.
-//				Simply we solve matrix grid completely by solving grid[n-1:n], grid[n-2:n], grid[n-3:n], ..., grid[0:n].
-
+//
+//	Simply we solve matrix grid completely by solving grid[n-1:n], grid[n-2:n], grid[n-3:n], ..., grid[0:n].
+//	The brute force solution is a backtracking algorithm. Thus to prevent exploring positions reptitively we store the solution at that point in dp matrix.
 func solve(i, j, v, n int, grid, dp [][]int) int {
 	_min := math.MaxInt32
 	for j < n {
