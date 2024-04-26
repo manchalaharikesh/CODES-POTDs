@@ -10,6 +10,7 @@
 //
 //	Simply we solve matrix grid completely by solving grid[n-1:n], grid[n-2:n], grid[n-3:n], ..., grid[0:n].
 //	The brute force solution is a backtracking algorithm. Thus to prevent exploring positions reptitively we store the solution at that point in dp matrix.
+
 func solve(i, j, v, n int, grid, dp [][]int) int {
 	_min := math.MaxInt32
 	for j < n {
