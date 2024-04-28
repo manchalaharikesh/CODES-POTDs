@@ -12,7 +12,8 @@
 
 //				You can rotate the ring clockwise or anticlockwise by one place, which counts as one step. The final purpose of the rotation is to align one of ring's characters at the "12:00" direction, where this character must equal key[i].
 //				If the character key[i] has been aligned at the "12:00" direction, press the center button to spell, which also counts as one step. After the pressing, you could begin to spell the next character in the key (next stage). Otherwise, you have finished all the spelling.
-// Approach: 1. For every character of key there can be multiple possibilities. So we need a 3D matrix for storing the solutions at each stage. dp[i][j][k] means ith char of key, j is from which char we are moving to current key[i] in ring and k is one of the possibilities for key[i] in ring.
+// Approach: 1. For every character of key there can be multiple possibilities in ring. So we need a 3D matrix for storing the solutions at each stage. dp[i][j][k] means ith char of key, j is from which char we are moving to current key[i] in ring and k is one of the possibilities for key[i] in ring.
+//				It's not possible to explain this particular code in two lines.
 
 import "math"
 
