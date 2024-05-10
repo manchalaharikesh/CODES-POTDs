@@ -7,7 +7,7 @@
 //				For every i and j where 0 <= i < j < arr.length, we consider the fraction arr[i] / arr[j].
 
 //				Return the kth smallest fraction considered. Return your answer as an array of integers of size 2, where answer[0] == arr[i] and answer[1] == arr[j].
-// Approach: 1. Find all the fractions in an n^2 approach. Simultaneously store element indices i, j with fractions. Now sort the fractions and return elements corresponding to kth smallest fraction.
+// Approach: 1. Find all the fractions in an n^2 approach. Simultaneously store element indices i, j along with fraction. Now sort the fractions based on fraction in non-decreasing fashion and return elements corresponding to kth smallest fraction.
 
 import "sort"
 
