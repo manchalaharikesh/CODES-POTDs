@@ -11,7 +11,8 @@
 //              Return the highest possible score after making any number of moves (including zero moves).
 // Approach: 1. Here we have few aspects to remember:
 //              1.1 If MSB bit is not set then making it set makes the number definitely larger than the original number (1000) is definitely larger than (0111).
-//              1.2 If among three numbers 1011, 1001, 1101 as the number of zeros are more than ones in 2nd LSB flipping the bits along this col will give the final sum definitely larger than original sum i.e., (1001 + 1011 + 1111) > (1011 + 1001 + 1101).
+//              1.2 Among three numbers 1011, 1001, 1101 as the number of zeros are more than ones in 2nd LSB flipping the bits along this col will give the final sum definitely larger than original sum i.e., (1001 + 1011 + 1111) > (1011 + 1001 + 1101).
+//              1.3 We repeat 1.2 for all the cols except the MSB
 //              Thus by above two remarks we can solve this problem, hereafter the Code is Self-Explanatory.
 
 class Solution {
