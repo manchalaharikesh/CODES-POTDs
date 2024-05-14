@@ -12,7 +12,7 @@
 //              Never visit a cell with 0 gold.
 //              You can start and stop collecting gold from any position in the grid that has some gold.
 // Approach: 1. Apply dfs in all directions by choosing every node as source node.
-//              And during each dfs move in four directions (left, right, top and bottom), only towards position without zero (as mentioned in constraints).
+//              And during each dfs you can move in four directions (left, right, top and bottom), only towards position without zero (as mentioned in constraints).
 //              And also in a dfs when we pass over the current position mark it as zero as we are collecting the coins at that position.
 //              While traversing back restore the coins in that position for another dfs traversal with different source.
 
