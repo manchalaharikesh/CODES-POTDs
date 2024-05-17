@@ -2,7 +2,7 @@
 // Question URL: https://www.geeksforgeeks.org/problems/find-pair-given-difference1559/1
 // Question: Find Pair Given Difference
 // Description: Given an array arr[] of size n and an integer x, return 1 if there exists a pair of elements in the array whose absolute difference is x, otherwise, return -1.
-// Approach: 1. Sort the given arr elements, then for i in (0, n) ele = x + arr[i], then find ele in i+1 to n using binary search.
+// Approach: 1. Sort the given arr elements, then for i in (0, n) ele = x + arr[i], then find ele in (i+1 to n) using binary search.
 
 class Solution {
   public:
