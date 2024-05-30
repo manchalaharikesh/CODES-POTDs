@@ -13,7 +13,7 @@
 //              Note that ^ denotes the bitwise-xor operation.
 
 //              Return the number of triplets (i, j and k) Where a == b.
-// Approach: 1. Brute Force O(n^3) approach.
+// Approach: 1. Brute Force O(n^3) approach Code is Self-Explanatory.
 
 class Solution {
 public:
