@@ -10,7 +10,7 @@
 //              The xor of all elements in vector will be the xor of those two unique elements as other elements repeat twice, so those elements xor becomes 0.
 //              Then for any set bit in xor it means one of the unique element has this position as set bit while other hasn't.
 //              So now we divide the elements into two groups, one has set bit at this particular bit of xor and the other which has no set bit at this particular bit of xor.
-//              Each one of our unique elements fall into each group. And also each group get its repeated elements based on particular set bit in xor. 
+//              Each one of our unique elements fall into each group. And also each group get its repeated elements based on particular set bit in xor.
 //              Then we have xor of all the elements in individual groups this must give our unique element each from each group as xor of those repeated elements with in group must become zero.
 
 class Solution {
