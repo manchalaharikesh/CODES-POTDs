@@ -8,7 +8,7 @@
 
 //              Return the number of indices where heights[i] != expected[i].
 // Approach: 1. Store given heights into another vector expected. Now sort heights.
-//              Now iteerate both the vectors to find number of positions are not matching (i.e., heights[i] != expected[i]).
+//              Now iterate both the vectors to find number of values that are placed incorrectly (i.e., heights[i] != expected[i]).
 
 class Solution {
 public:
