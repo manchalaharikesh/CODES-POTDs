@@ -4,7 +4,7 @@
 // Description: Given the coordinates of the endpoints(p1,q1, and p2,q2) of the two line segments. Check if they intersect or not. If the Line segments intersect return true otherwise return false.
 
 //              Note: Please check the intersection lies within the line segments.
-// Approach: 1. Code is Self-Explanatory.
+// Approach: 1. Code is Self-Explanatory, (read comments).
 
 class Solution {
   public:
