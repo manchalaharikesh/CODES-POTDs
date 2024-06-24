@@ -4,7 +4,7 @@
 // Description: Given a binary tree having n nodes. Find the sum of all nodes on the longest path from root to any leaf node. If two or more paths compete for the longest path, then the path having maximum sum of nodes will be considered.
 // Approach: 1. Brute Force Code is Self-Explanatory.
 
-*
+/*
 structure of the node of the binary tree is as
 struct Node
 {
