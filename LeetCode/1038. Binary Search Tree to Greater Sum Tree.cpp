@@ -9,7 +9,7 @@
 //              The left subtree of a node contains only nodes with keys less than the node's key.
 //              The right subtree of a node contains only nodes with keys greater than the node's key.
 //              Both the left and right subtrees must also be binary search trees.
-// Approach: 1. Given that the tree is strictly BST. Then as to convert it into a greater sum tree we need to update curr root with sum of values of roots greater to it. This is simply the suffix sum of ascending order of elements in BST.
+// Approach: 1. Given that the tree is strictly BST. Then as to convert it into a greater sum tree we need to update curr root with sum of values of roots greater to it. This is simply the (suffix sum of ascending order of elements / prefix sum of descending order of elements) in BST.
 //              This is achieved by reverse inorder traversal. For better understanding refer to code.
 
 /**
