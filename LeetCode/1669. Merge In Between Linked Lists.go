@@ -8,6 +8,11 @@
 
 //				The blue edges and nodes in the following figure indicate the result:
 
+//				https://assets.leetcode.com/uploads/2020/11/05/fig1.png
+
+//				Build the result list and return its head.
+// Approach: 1. Brute Force or Code is Self-Explanatory.
+
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -39,9 +44,3 @@ func mergeInBetween(list1 *ListNode, a int, b int, list2 *ListNode) *ListNode {
 
 	return list1
 }
-
-//				https://assets.leetcode.com/uploads/2020/11/05/fig1.png
-
-//				Build the result list and return its head.
-// Approach: 1. Brute Force or Code is Self-Explanatory.
-
