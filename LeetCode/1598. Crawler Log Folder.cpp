@@ -15,7 +15,7 @@
 
 //              Return the minimum number of operations needed to go back to the main folder after the change folder operations.
 // Approach: 1. For every "../" we decrease the tree depth or log depth (by moving back), "./" we survive in the same depth (by being in same log), otherwise we are increase our log depth (by moving to child log).
-//              Further from here the code is self explanatory.
+//              Further from here please refer to the code as it is self explanatory.
 
 class Solution {
 public:
